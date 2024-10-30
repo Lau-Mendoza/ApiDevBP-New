@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gestion de usuarios</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1> Gestion de usuarios </h1>
+
+        <form id="userForm">
+
+            <input type="text" id="name" placeholder="Nombre" required />
+            <input type="text" id="lastname" placeholder="apellido" required />
+            <button type="submit"> Agregar usuario  </button>
+
+        </form>
+
+        <h2>Lista de usuarios </h2>
+
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Acciones</th>
+                </tr>
+            <thead/>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>

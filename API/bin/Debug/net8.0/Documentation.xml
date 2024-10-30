@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiDevBP</name>
+    </assembly>
+    <members>
+        <member name="T:ApiDevBP.Models.DataBaseConfig">
+            <summary>
+            clase para configurar la base de datos
+            </summary>
+        </member>
+    </members>
+</doc>
